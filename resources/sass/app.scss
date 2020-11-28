@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.header{
+    display: flex;
+    .buttons{
+        margin-left: auto;
+    }
+}
+
+.inputs{
+    display: grid;
+    grid-gap: 10px;
+}
